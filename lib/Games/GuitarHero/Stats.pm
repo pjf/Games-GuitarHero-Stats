@@ -55,6 +55,14 @@ sub new {
     if ($response->is_success) {
         my $data = XMLin( $response->decoded_content);
 
+        # There's an effectively useless 'primary_slot'
+        # in the XML.  For now, we just partially flatten
+        # our data structure.
+
+        foreach my $key (keys %{ $data->{primary_slot} } ) {
+            $data->{$key} = delete $data->{primary_slot}{$key};
+        }
+
 #        print Dump $data;
 
         return Games::GuitarHero::Stats::Rocker->new( $data );
