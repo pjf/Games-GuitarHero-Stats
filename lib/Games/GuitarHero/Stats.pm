@@ -3,6 +3,12 @@ package Games::GuitarHero::Stats;
 use warnings;
 use strict;
 
+use LWP::UserAgent;
+use XML::Simple;
+use YAML;
+use Games::GuitarHero::Stats::Rocker;
+use Carp;
+
 =head1 NAME
 
 Games::GuitarHero::Stats - The great new Games::GuitarHero::Stats!
@@ -34,18 +40,28 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 FUNCTIONS
 
-=head2 function1
-
 =cut
 
-sub function1 {
-}
+sub new {
+    my ($class, %args) = @_;
 
-=head2 function2
+    my $id = $args{id} or croak "Mandatory id field missing";
 
-=cut
+    my $ua = LWP::UserAgent->new;
+    $ua->env_proxy;
 
-sub function2 {
+    my $response = $ua->get("http://assets.community.guitarhero.com/accounts/feed/ghwt/$id.xml");
+
+    if ($response->is_success) {
+        my $data = XMLin( $response->decoded_content);
+
+#        print Dump $data;
+
+        return Games::GuitarHero::Stats::Rocker->new( $data );
+    }
+    else {
+        die $response->status_line;
+    }
 }
 
 =head1 AUTHOR
