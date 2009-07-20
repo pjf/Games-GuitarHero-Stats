@@ -1,5 +1,7 @@
 package Games::GuitarHero::Stats;
 
+use 5.006;
+
 use warnings;
 use strict;
 
