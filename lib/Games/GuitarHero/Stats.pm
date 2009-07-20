@@ -9,6 +9,8 @@ use LWP::UserAgent;
 use XML::Simple;
 use YAML;
 use Games::GuitarHero::Stats::Rocker;
+use Games::GuitarHero::Stats::Performance;
+use Games::GuitarHero::Stats::Types;
 use Carp;
 
 =head1 NAME
