@@ -1,21 +1,14 @@
 #!/usr/bin/perl -w
 use strict;
 use warnings;
-use Test::More;
+use Test::More tests => 4;
 use Games::GuitarHero::Stats;
 use YAML;
 
-my $hero;
-eval {
-	$hero = Games::GuitarHero::Stats->new(
-	    id => 777584
-	);
-};
-if ($@) {
-	plan( skip_all => "Failed to instantiate hero object");
-}
+my $hero = Games::GuitarHero::Stats->new(
+    id => 777584
+);
 
-plan(tests => 4);
 is($hero->rocker_status,   "Indie",              "Have we joined a guild?");
 is($hero->tournament_wins, 0,                    "Do we still suck?");
 is($hero->username,        "Teellox",            "Username");

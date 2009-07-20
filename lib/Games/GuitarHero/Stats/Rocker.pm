@@ -1,5 +1,6 @@
 package Games::GuitarHero::Stats::Rocker;
 use Games::GuitarHero::Stats::Types;
+use Games::GuitarHero::Stats::Performance;
 use Moose;
 
 # Helper function, so we don't need 'is => "ro"' everywhere.
@@ -31,6 +32,13 @@ has_ro name                    => ( isa => 'Str' );
 # has highscores => (
 #    isa => 'ArrayRef[Games::GuitarHero::Stats::HighScore]'
 # );
+
+has_ro recent_performances => (
+    isa => 'PerformanceArray',
+    coerce => 1,
+);
+
+__PACKAGE__->meta->make_immutable;
 
 no Moose;
 
