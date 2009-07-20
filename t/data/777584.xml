@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account>
+  <last_login_at type="datetime">2008-12-25T11:34:05Z</last_login_at>
+  <unread_message_count type="integer">1</unread_message_count>
+  <last_blog_post_at nil="true"></last_blog_post_at>
+  <last_linked_slot_at type="datetime">2008-11-14T15:54:11Z</last_linked_slot_at>
+  <updated_at type="datetime">2009-07-09T14:19:30Z</updated_at>
+  <groupies type="integer">3433</groupies>
+  <rocker_status>Indie</rocker_status>
+  <tournament_wins type="integer">0</tournament_wins>
+  <last_joined_clan_at nil="true"></last_joined_clan_at>
+  <username>Teellox</username>
+  <last_comment_on_blog_post_at nil="true"></last_comment_on_blog_post_at>
+  <slots_count type="integer">1</slots_count>
+  <description>Yarr!  It be a fine day fer strumming.</description>
+  <last_created_clan_at nil="true"></last_created_clan_at>
+  <skin>default</skin>
+  <primary_slot>
+    <recent_performances>
+      <performance_1>
+        <score type="integer">74930</score>
+        <part type="symbol">drum</part>
+        <best_streak type="integer">33</best_streak>
+        <cheats></cheats>
+        <character_name>deprecated</character_name>
+        <stars type="integer">3</stars>
+        <song_difficulty>medium</song_difficulty>
+        <lefty type="boolean">false</lefty>
+        <notes_missed type="integer">65</notes_missed>
+        <star_power_achieved type="integer">8</star_power_achieved>
+        <venue>sunnas_chariot</venue>
+        <notes_hit type="integer">626</notes_hit>
+        <song>souldoubt</song>
+        <created_at type="datetime">2009-07-11T03:44:29Z</created_at>
+      </performance_1>
+      <performance_2>
+        <score type="integer">70445</score>
+        <part type="symbol">drum</part>
+        <best_streak type="integer">39</best_streak>
+        <cheats></cheats>
+        <character_name>deprecated</character_name>
+        <stars type="integer">3</stars>
+        <song_difficulty>medium</song_difficulty>
+        <lefty type="boolean">false</lefty>
+        <notes_missed type="integer">93</notes_missed>
+        <star_power_achieved type="integer">2</star_power_achieved>
+        <venue>sunnas_chariot</venue>
+        <notes_hit type="integer">489</notes_hit>
+        <song>satchboogie</song>
+        <created_at type="datetime">2009-07-11T03:41:05Z</created_at>
+      </performance_2>
+      <performance_3>
+        <score type="integer">73505</score>
+        <part type="symbol">drum</part>
+        <best_streak type="integer">11</best_streak>
+        <cheats></cheats>
+        <character_name>deprecated</character_name>
+        <stars type="integer">3</stars>
+        <song_difficulty>medium</song_difficulty>
+        <lefty type="boolean">false</lefty>
+        <notes_missed type="integer">354</notes_missed>
+        <star_power_achieved type="integer">0</star_power_achieved>
+        <venue>times_square</venue>
+        <notes_hit type="integer">624</notes_hit>
+        <song>hotforteacher</song>
+        <created_at type="datetime">2009-07-10T08:17:55Z</created_at>
+      </performance_3>
+    </recent_performances>
+    <last_login_at type="datetime">2009-07-11T03:44:29Z</last_login_at>
+    <name>Percussion Pirates</name>
+    <win_streak type="integer">0</win_streak>
+    <head_to_head_games_count type="integer">1</head_to_head_games_count>
+    <platform>wii</platform>
+    <career_cash type="integer">100636</career_cash>
+    <groupies type="integer">3433</groupies>
+    <matches_count type="integer">1</matches_count>
+    <clan_id nil="true"></clan_id>
+    <wins nil="true"></wins>
+    <id type="integer">460828</id>
+    <highscores>
+      <coop>
+      </coop>
+      <regular>
+        <hard>
+          <downloaded_content_46>
+            <score type="integer">118128</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T14:19:45Z</updated_at>
+            <best_streak type="integer">50</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">83</hit_percentage>
+          </downloaded_content_46>
+          <beautifuldisaster>
+            <score type="integer">126860</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-22T06:55:47Z</updated_at>
+            <best_streak type="integer">110</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </beautifuldisaster>
+          <today>
+            <score type="integer">198437</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T14:33:41Z</updated_at>
+            <best_streak type="integer">195</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </today>
+          <aggro>
+            <score type="integer">103906</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2009-01-17T09:15:14Z</updated_at>
+            <best_streak type="integer">133</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">88</hit_percentage>
+          </aggro>
+          <obstacle1>
+            <score type="integer">180884</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-22T07:00:52Z</updated_at>
+            <best_streak type="integer">211</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </obstacle1>
+          <whativedone>
+            <score type="integer">241152</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T13:19:59Z</updated_at>
+            <best_streak type="integer">182</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </whativedone>
+          <spiderwebs>
+            <score type="integer">304077</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T14:27:38Z</updated_at>
+            <best_streak type="integer">123</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </spiderwebs>
+          <antisocial>
+            <score type="integer">126533</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-28T06:35:41Z</updated_at>
+            <best_streak type="integer">24</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">72</hit_percentage>
+          </antisocial>
+          <youregonnasayyeah>
+            <score type="integer">94733</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2009-01-17T09:24:05Z</updated_at>
+            <best_streak type="integer">57</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">81</hit_percentage>
+          </youregonnasayyeah>
+          <aboutagirl>
+            <score type="integer">115310</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-04-05T00:58:22Z</updated_at>
+            <best_streak type="integer">32</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">80</hit_percentage>
+          </aboutagirl>
+          <theoneilove>
+            <score type="integer">51411</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-22T07:05:05Z</updated_at>
+            <best_streak type="integer">49</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">90</hit_percentage>
+          </theoneilove>
+          <themiddle>
+            <score type="integer">171652</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-02-02T13:58:42Z</updated_at>
+            <best_streak type="integer">140</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">0</hit_percentage>
+          </themiddle>
+          <rebelyell>
+            <score type="integer">256209</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T14:39:41Z</updated_at>
+            <best_streak type="integer">127</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">87</hit_percentage>
+          </rebelyell>
+          <nosleeptillbrooklyn>
+            <score type="integer">190915</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-04-05T00:54:00Z</updated_at>
+            <best_streak type="integer">55</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">85</hit_percentage>
+          </nosleeptillbrooklyn>
+          <heartbreaker>
+            <score type="integer">74514</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-24T11:50:17Z</updated_at>
+            <best_streak type="integer">34</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">82</hit_percentage>
+          </heartbreaker>
+          <rooftops>
+            <score type="integer">209207</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-02-02T13:45:14Z</updated_at>
+            <best_streak type="integer">360</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">0</hit_percentage>
+          </rooftops>
+          <monsoon>
+            <score type="integer">283092</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-02-02T13:34:54Z</updated_at>
+            <best_streak type="integer">300</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">0</hit_percentage>
+          </monsoon>
+          <downloaded_content_10>
+            <score type="integer">72712</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2009-01-17T09:20:03Z</updated_at>
+            <best_streak type="integer">40</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">86</hit_percentage>
+          </downloaded_content_10>
+          <toomuchtooyoung>
+            <score type="integer">102316</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2009-01-17T09:28:27Z</updated_at>
+            <best_streak type="integer">78</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">89</hit_percentage>
+          </toomuchtooyoung>
+        </hard>
+        <medium>
+          <trappedunderice>
+            <score type="integer">127415</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-07-10T08:07:26Z</updated_at>
+            <best_streak type="integer">108</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">85</hit_percentage>
+          </trappedunderice>
+          <stillborn>
+            <score type="integer">271458</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-11-15T07:02:04Z</updated_at>
+            <best_streak type="integer">98</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </stillborn>
+          <hailtothefreaks>
+            <score type="integer">146995</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-01-07T12:45:17Z</updated_at>
+            <best_streak type="integer">226</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </hailtothefreaks>
+          <kickoutthejams>
+            <score type="integer">82501</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-24T11:27:27Z</updated_at>
+            <best_streak type="integer">91</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </kickoutthejams>
+          <crazytrain>
+            <score type="integer">174415</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-01-15T06:33:03Z</updated_at>
+            <best_streak type="integer">89</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </crazytrain>
+          <mrcrowley>
+            <score type="integer">166120</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-01-15T06:27:03Z</updated_at>
+            <best_streak type="integer">90</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </mrcrowley>
+          <mountainsong>
+            <score type="integer">101108</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-14T05:18:12Z</updated_at>
+            <best_streak type="integer">127</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </mountainsong>
+          <downloaded_content_122>
+            <score type="integer">156387</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T13:43:35Z</updated_at>
+            <best_streak type="integer">108</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </downloaded_content_122>
+          <spiderwebs>
+            <score type="integer">210121</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-04-17T11:41:40Z</updated_at>
+            <best_streak type="integer">120</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </spiderwebs>
+          <ramblinman>
+            <score type="integer">142044</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T06:52:35Z</updated_at>
+            <best_streak type="integer">141</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </ramblinman>
+          <nuvole>
+            <score type="integer">157994</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-30T11:38:12Z</updated_at>
+            <best_streak type="integer">216</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </nuvole>
+          <downloaded_content_123>
+            <score type="integer">149967</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T13:54:34Z</updated_at>
+            <best_streak type="integer">52</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">92</hit_percentage>
+          </downloaded_content_123>
+          <labamba>
+            <score type="integer">72093</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-29T11:36:23Z</updated_at>
+            <best_streak type="integer">97</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </labamba>
+          <aboutagirl>
+            <score type="integer">70180</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-14T05:12:54Z</updated_at>
+            <best_streak type="integer">168</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </aboutagirl>
+          <downloaded_content_124>
+            <score type="integer">214786</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T13:33:03Z</updated_at>
+            <best_streak type="integer">94</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">92</hit_percentage>
+          </downloaded_content_124>
+          <goodgod>
+            <score type="integer">99241</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T06:42:39Z</updated_at>
+            <best_streak type="integer">143</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </goodgod>
+          <whativedone>
+            <score type="integer">116978</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-19T11:12:38Z</updated_at>
+            <best_streak type="integer">247</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </whativedone>
+          <stranglehold>
+            <score type="integer">119780</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T07:11:27Z</updated_at>
+            <best_streak type="integer">72</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">90</hit_percentage>
+          </stranglehold>
+          <screamaimfire>
+            <score type="integer">74935</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-29T11:41:26Z</updated_at>
+            <best_streak type="integer">53</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">79</hit_percentage>
+          </screamaimfire>
+          <downloaded_content_125>
+            <score type="integer">155952</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T13:38:23Z</updated_at>
+            <best_streak type="integer">95</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">93</hit_percentage>
+          </downloaded_content_125>
+          <goyourownway>
+            <score type="integer">105376</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T06:57:18Z</updated_at>
+            <best_streak type="integer">65</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </goyourownway>
+          <santeria>
+            <score type="integer">85416</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-24T11:31:14Z</updated_at>
+            <best_streak type="integer">143</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </santeria>
+          <thekill>
+            <score type="integer">151315</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:17:28Z</updated_at>
+            <best_streak type="integer">319</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </thekill>
+          <assassin>
+            <score type="integer">96336</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T10:56:26Z</updated_at>
+            <best_streak type="integer">128</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </assassin>
+          <everlong>
+            <score type="integer">189709</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T07:51:21Z</updated_at>
+            <best_streak type="integer">164</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </everlong>
+          <nosleeptillbrooklyn>
+            <score type="integer">56676</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-14T11:01:16Z</updated_at>
+            <best_streak type="integer">87</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">92</hit_percentage>
+          </nosleeptillbrooklyn>
+          <heartbreaker>
+            <score type="integer">103434</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T06:40:57Z</updated_at>
+            <best_streak type="integer">163</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </heartbreaker>
+          <livingonaprayer>
+            <score type="integer">48749</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-14T05:09:00Z</updated_at>
+            <best_streak type="integer">47</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">93</hit_percentage>
+          </livingonaprayer>
+          <lvialviaquez>
+            <score type="integer">104663</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-24T11:23:44Z</updated_at>
+            <best_streak type="integer">129</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </lvialviaquez>
+          <byob>
+            <score type="integer">131514</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-07-10T08:12:22Z</updated_at>
+            <best_streak type="integer">74</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">76</hit_percentage>
+          </byob>
+          <doitagain>
+            <score type="integer">314356</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-11-15T06:53:07Z</updated_at>
+            <best_streak type="integer">43</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">91</hit_percentage>
+          </doitagain>
+          <theoneilove>
+            <score type="integer">60061</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-15T04:07:42Z</updated_at>
+            <best_streak type="integer">89</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </theoneilove>
+          <somemightsay>
+            <score type="integer">132300</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-15T07:43:04Z</updated_at>
+            <best_streak type="integer">96</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">93</hit_percentage>
+          </somemightsay>
+          <shiver>
+            <score type="integer">221498</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:24:32Z</updated_at>
+            <best_streak type="integer">217</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </shiver>
+          <reedthroughlabor>
+            <score type="integer">116087</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-29T11:33:28Z</updated_at>
+            <best_streak type="integer">157</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">91</hit_percentage>
+          </reedthroughlabor>
+          <vicarious>
+            <score type="integer">488344</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-19T11:56:47Z</updated_at>
+            <best_streak type="integer">330</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">0</hit_percentage>
+          </vicarious>
+          <lazyeye>
+            <score type="integer">230573</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-30T11:23:52Z</updated_at>
+            <best_streak type="integer">230</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </lazyeye>
+          <overkill>
+            <score type="integer">110224</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-29T11:46:52Z</updated_at>
+            <best_streak type="integer">75</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">92</hit_percentage>
+          </overkill>
+          <demolitionman>
+            <score type="integer">98914</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:35:02Z</updated_at>
+            <best_streak type="integer">154</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </demolitionman>
+          <ontheroadagain>
+            <score type="integer">63408</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-24T11:34:20Z</updated_at>
+            <best_streak type="integer">123</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </ontheroadagain>
+          <satchboogie>
+            <score type="integer">75556</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2009-01-10T07:14:51Z</updated_at>
+            <best_streak type="integer">64</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">84</hit_percentage>
+          </satchboogie>
+          <ourtruth>
+            <score type="integer">116788</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-01-15T06:15:19Z</updated_at>
+            <best_streak type="integer">114</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </ourtruth>
+          <prettyvacant>
+            <score type="integer">101245</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-03-01T12:34:42Z</updated_at>
+            <best_streak type="integer">79</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </prettyvacant>
+          <beautifuldisaster>
+            <score type="integer">87672</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-15T03:58:18Z</updated_at>
+            <best_streak type="integer">88</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </beautifuldisaster>
+          <downloaded_content_132>
+            <score type="integer">156622</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-06-26T14:05:31Z</updated_at>
+            <best_streak type="integer">85</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </downloaded_content_132>
+          <downloaded_content_3>
+            <score type="integer">131686</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-28T06:01:07Z</updated_at>
+            <best_streak type="integer">165</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </downloaded_content_3>
+          <windcriesmary>
+            <score type="integer">106792</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:06:12Z</updated_at>
+            <best_streak type="integer">100</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </windcriesmary>
+          <toomuchtooyoung>
+            <score type="integer">156918</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-07-10T07:48:24Z</updated_at>
+            <best_streak type="integer">138</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </toomuchtooyoung>
+          <thejoker>
+            <score type="integer">273459</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-03-01T12:55:51Z</updated_at>
+            <best_streak type="integer">112</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </thejoker>
+          <floaton>
+            <score type="integer">105289</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-30T11:33:18Z</updated_at>
+            <best_streak type="integer">139</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </floaton>
+          <downloaded_content_4>
+            <score type="integer">111499</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-28T06:06:10Z</updated_at>
+            <best_streak type="integer">203</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </downloaded_content_4>
+          <hollywoodnights>
+            <score type="integer">180810</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-03-01T12:40:41Z</updated_at>
+            <best_streak type="integer">170</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </hollywoodnights>
+          <escueladecalor>
+            <score type="integer">99628</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:00:39Z</updated_at>
+            <best_streak type="integer">99</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </escueladecalor>
+          <onearmedscissor>
+            <score type="integer">144377</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T06:47:15Z</updated_at>
+            <best_streak type="integer">163</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </onearmedscissor>
+          <monsoon>
+            <score type="integer">190754</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T06:29:20Z</updated_at>
+            <best_streak type="integer">619</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">100</hit_percentage>
+          </monsoon>
+          <prisonerofsociety>
+            <score type="integer">136183</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-24T11:44:58Z</updated_at>
+            <best_streak type="integer">83</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">91</hit_percentage>
+          </prisonerofsociety>
+          <americanwoman>
+            <score type="integer">125952</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T06:46:22Z</updated_at>
+            <best_streak type="integer">170</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </americanwoman>
+          <areyougonnagomyway>
+            <score type="integer">77111</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T10:45:13Z</updated_at>
+            <best_streak type="integer">71</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </areyougonnagomyway>
+          <eyeofthetiger>
+            <score type="integer">264175</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-11-15T06:00:27Z</updated_at>
+            <best_streak type="integer">55</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </eyeofthetiger>
+          <uparoundthebend>
+            <score type="integer">51208</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-14T10:55:00Z</updated_at>
+            <best_streak type="integer">70</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </uparoundthebend>
+          <themiddle>
+            <score type="integer">134425</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T07:31:53Z</updated_at>
+            <best_streak type="integer">207</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </themiddle>
+          <heymanniceshot>
+            <score type="integer">79687</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T07:37:42Z</updated_at>
+            <best_streak type="integer">92</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">90</hit_percentage>
+          </heymanniceshot>
+          <feelthepain>
+            <score type="integer">137608</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T07:42:37Z</updated_at>
+            <best_streak type="integer">212</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </feelthepain>
+          <freakonaleash>
+            <score type="integer">176582</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-01-15T06:20:38Z</updated_at>
+            <best_streak type="integer">161</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </freakonaleash>
+          <downloaded_content_46>
+            <score type="integer">112378</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-28T06:16:31Z</updated_at>
+            <best_streak type="integer">118</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </downloaded_content_46>
+          <sweethomealabama>
+            <score type="integer">107006</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T10:52:12Z</updated_at>
+            <best_streak type="integer">66</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">90</hit_percentage>
+          </sweethomealabama>
+          <souldoubt>
+            <score type="integer">74930</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-07-11T03:44:29Z</updated_at>
+            <best_streak type="integer">33</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">90</hit_percentage>
+          </souldoubt>
+          <downloaded_content_8>
+            <score type="integer">142732</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-28T06:20:51Z</updated_at>
+            <best_streak type="integer">218</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </downloaded_content_8>
+          <bandontherun>
+            <score type="integer">112322</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-14T10:47:06Z</updated_at>
+            <best_streak type="integer">93</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </bandontherun>
+          <aggro>
+            <score type="integer">81058</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T06:34:12Z</updated_at>
+            <best_streak type="integer">89</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">92</hit_percentage>
+          </aggro>
+          <beatit>
+            <score type="integer">122052</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:40:27Z</updated_at>
+            <best_streak type="integer">151</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </beatit>
+          <today>
+            <score type="integer">93952</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-16T06:28:54Z</updated_at>
+            <best_streak type="integer">108</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </today>
+          <purplehaze>
+            <score type="integer">90837</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:10:58Z</updated_at>
+            <best_streak type="integer">101</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </purplehaze>
+          <youregonnasayyeah>
+            <score type="integer">82548</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-14T10:51:05Z</updated_at>
+            <best_streak type="integer">81</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">89</hit_percentage>
+          </youregonnasayyeah>
+          <weaponofchoice>
+            <score type="integer">145760</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-03-18T11:01:44Z</updated_at>
+            <best_streak type="integer">73</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">91</hit_percentage>
+          </weaponofchoice>
+          <hotforteacher>
+            <score type="integer">75929</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T07:19:27Z</updated_at>
+            <best_streak type="integer">39</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">78</hit_percentage>
+          </hotforteacher>
+          <rooftops>
+            <score type="integer">262537</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T06:39:12Z</updated_at>
+            <best_streak type="integer">537</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </rooftops>
+          <obstacle1>
+            <score type="integer">109499</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-15T04:03:17Z</updated_at>
+            <best_streak type="integer">140</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </obstacle1>
+          <dammit>
+            <score type="integer">96151</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-19T11:07:14Z</updated_at>
+            <best_streak type="integer">146</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </dammit>
+          <downloaded_content_10>
+            <score type="integer">145821</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-12-28T06:10:53Z</updated_at>
+            <best_streak type="integer">205</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </downloaded_content_10>
+          <nevertoolate>
+            <score type="integer">82868</score>
+            <part>drum</part>
+            <updated_at type="datetime">2009-03-01T12:26:50Z</updated_at>
+            <best_streak type="integer">47</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">90</hit_percentage>
+          </nevertoolate>
+          <rebelyell>
+            <score type="integer">106155</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-17T11:30:03Z</updated_at>
+            <best_streak type="integer">246</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">92</hit_percentage>
+          </rebelyell>
+          <antisocial>
+            <score type="integer">109034</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2009-01-17T09:10:48Z</updated_at>
+            <best_streak type="integer">57</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">90</hit_percentage>
+          </antisocial>
+          <lovemetwotimes>
+            <score type="integer">99057</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2008-11-24T11:38:57Z</updated_at>
+            <best_streak type="integer">166</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </lovemetwotimes>
+          <hotelcalifornia>
+            <score type="integer">518499</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-11-15T07:10:20Z</updated_at>
+            <best_streak type="integer">138</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </hotelcalifornia>
+        </medium>
+        <easy>
+          <eyeofthetiger>
+            <score type="integer">76640</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T02:55:33Z</updated_at>
+            <best_streak type="integer">212</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">97</hit_percentage>
+          </eyeofthetiger>
+          <escueladecalor>
+            <score type="integer">79230</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T11:20:09Z</updated_at>
+            <best_streak type="integer">96</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </escueladecalor>
+          <downloaded_content_79>
+            <score type="integer">196329</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-02-17T09:09:22Z</updated_at>
+            <best_streak type="integer">63</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </downloaded_content_79>
+          <beautifuldisaster>
+            <score type="integer">206772</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-24T11:00:43Z</updated_at>
+            <best_streak type="integer">104</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </beautifuldisaster>
+          <today>
+            <score type="integer">31763</score>
+            <part>vocals</part>
+            <updated_at type="datetime">2008-11-14T13:54:09Z</updated_at>
+            <best_streak type="integer">140</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">0</hit_percentage>
+          </today>
+          <satchboogie>
+            <score type="integer">90942</score>
+            <part>guitar</part>
+            <updated_at type="datetime">2009-01-10T07:19:05Z</updated_at>
+            <best_streak type="integer">164</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </satchboogie>
+          <onewayoranother>
+            <score type="integer">113345</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-17T07:27:02Z</updated_at>
+            <best_streak type="integer">279</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </onewayoranother>
+          <hotelcalifornia>
+            <score type="integer">84505</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T11:10:29Z</updated_at>
+            <best_streak type="integer">100</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </hotelcalifornia>
+          <feelthepain>
+            <score type="integer">119170</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-24T11:07:43Z</updated_at>
+            <best_streak type="integer">37</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">72</hit_percentage>
+          </feelthepain>
+          <beatit>
+            <score type="integer">116259</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T03:06:05Z</updated_at>
+            <best_streak type="integer">415</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </beatit>
+          <uparoundthebend>
+            <score type="integer">38711</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T10:51:22Z</updated_at>
+            <best_streak type="integer">45</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">87</hit_percentage>
+          </uparoundthebend>
+          <thejoker>
+            <score type="integer">18388</score>
+            <part>vocals</part>
+            <updated_at type="datetime">2008-11-14T13:48:31Z</updated_at>
+            <best_streak type="integer">60</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">0</hit_percentage>
+          </thejoker>
+          <doitagain>
+            <score type="integer">244475</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-24T11:22:53Z</updated_at>
+            <best_streak type="integer">177</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">98</hit_percentage>
+          </doitagain>
+          <whativedone>
+            <score type="integer">58424</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T10:12:11Z</updated_at>
+            <best_streak type="integer">82</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </whativedone>
+          <sweethomealabama>
+            <score type="integer">92865</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T13:58:04Z</updated_at>
+            <best_streak type="integer">95</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">93</hit_percentage>
+          </sweethomealabama>
+          <livingonaprayer>
+            <score type="integer">104754</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T10:37:16Z</updated_at>
+            <best_streak type="integer">144</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </livingonaprayer>
+          <downloaded_content_4>
+            <score type="integer">175327</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-02-17T09:01:48Z</updated_at>
+            <best_streak type="integer">47</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </downloaded_content_4>
+          <antisocial>
+            <score type="integer">75484</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-17T07:37:32Z</updated_at>
+            <best_streak type="integer">89</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">93</hit_percentage>
+          </antisocial>
+          <youregonnasayyeah>
+            <score type="integer">78417</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-24T11:15:48Z</updated_at>
+            <best_streak type="integer">66</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">85</hit_percentage>
+          </youregonnasayyeah>
+          <aboutagirl>
+            <score type="integer">42641</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T11:02:57Z</updated_at>
+            <best_streak type="integer">70</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">91</hit_percentage>
+          </aboutagirl>
+          <theoneilove>
+            <score type="integer">66054</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-17T07:31:37Z</updated_at>
+            <best_streak type="integer">99</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </theoneilove>
+          <themiddle>
+            <score type="integer">45875</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T11:15:49Z</updated_at>
+            <best_streak type="integer">60</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </themiddle>
+          <rebelyell>
+            <score type="integer">94034</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T13:39:24Z</updated_at>
+            <best_streak type="integer">133</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </rebelyell>
+          <heartbreaker>
+            <score type="integer">36390</score>
+            <part>vocals</part>
+            <updated_at type="datetime">2008-11-14T13:42:37Z</updated_at>
+            <best_streak type="integer">290</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">0</hit_percentage>
+          </heartbreaker>
+          <areyougonnagomyway>
+            <score type="integer">70343</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T10:07:38Z</updated_at>
+            <best_streak type="integer">92</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">96</hit_percentage>
+          </areyougonnagomyway>
+          <nevertoolate>
+            <score type="integer">146167</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-26T10:13:56Z</updated_at>
+            <best_streak type="integer">50</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">86</hit_percentage>
+          </nevertoolate>
+          <monsoon>
+            <score type="integer">269625</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-24T11:44:19Z</updated_at>
+            <best_streak type="integer">303</best_streak>
+            <stars type="integer">5</stars>
+            <hit_percentage type="integer">99</hit_percentage>
+          </monsoon>
+          <lovespreads>
+            <score type="integer">269667</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-26T10:09:09Z</updated_at>
+            <best_streak type="integer">46</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">82</hit_percentage>
+          </lovespreads>
+          <somemightsay>
+            <score type="integer">105099</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-15T10:58:15Z</updated_at>
+            <best_streak type="integer">99</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">93</hit_percentage>
+          </somemightsay>
+          <dammit>
+            <score type="integer">150405</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-01-13T10:38:41Z</updated_at>
+            <best_streak type="integer">56</best_streak>
+            <stars type="integer">4</stars>
+            <hit_percentage type="integer">94</hit_percentage>
+          </dammit>
+          <pullmeunder>
+            <score type="integer">359153</score>
+            <part>band</part>
+            <updated_at type="datetime">2008-12-24T11:57:07Z</updated_at>
+            <best_streak type="integer">79</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">84</hit_percentage>
+          </pullmeunder>
+          <downloaded_content_78>
+            <score type="integer">104260</score>
+            <part>band</part>
+            <updated_at type="datetime">2009-02-17T09:16:17Z</updated_at>
+            <best_streak type="integer">45</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">92</hit_percentage>
+          </downloaded_content_78>
+          <stillborn>
+            <score type="integer">31625</score>
+            <part>drum</part>
+            <updated_at type="datetime">2008-11-17T07:42:03Z</updated_at>
+            <best_streak type="integer">26</best_streak>
+            <stars type="integer">3</stars>
+            <hit_percentage type="integer">95</hit_percentage>
+          </stillborn>
+        </easy>
+      </regular>
+    </highscores>
+    <quick_plays_count type="integer">291</quick_plays_count>
+    <account_assigned_at type="datetime">2008-11-14T15:54:11Z</account_assigned_at>
+    <losses type="integer">1</losses>
+    <created_at type="datetime">2008-11-14T04:55:13Z</created_at>
+  </primary_slot>
+  <forum_posts_count type="integer">2</forum_posts_count>
+  <friendship_invitations_count type="integer">0</friendship_invitations_count>
+  <friendships_count type="integer">0</friendships_count>
+  <created_at type="datetime">2008-11-14T15:35:07Z</created_at>
+  <custom_title nil="true"></custom_title>
+  <last_joined_tournament_at nil="true"></last_joined_tournament_at>
+  <state nil="true"></state>
+</account>
