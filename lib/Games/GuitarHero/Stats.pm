@@ -38,59 +38,16 @@ Perhaps a little code snippet.
     my $foo = Games::GuitarHero::Stats->new();
     ...
 
-=head1 EXPORT
-
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
 =head1 FUNCTIONS
 
 =cut
 
+# Just an alias for Rocker->new
+
 sub new {
-    my ($class, %args) = @_;
+    my ($class, @args) = @_;
 
-    my $xml;
-
-    my $desired_class = $args{class} || "Games::GuitarHero::Stats::Rocker";
-
-    if (my $file = $args{file}) {
-        open(my $fh, '<', $file);
-
-        $xml = do { local $/; <$fh> };
-    }
-    elsif ( my $id = $args{id} ) {
-
-        my $ua = LWP::UserAgent->new;
-        $ua->env_proxy;
-
-        my $response = $ua->get("http://assets.community.guitarhero.com/accounts/feed/ghwt/$id.xml");
-
-        if ($response->is_success) {
-            $xml = $response->decoded_content;
-        }
-        else {
-            croak "Failed to load guitar hero XML - "
-                .  $response->status_line;
-        }
-    }
-    else {
-        croak "Missing either a 'id' or 'file' parameter";
-    }
-
-    my $data = XMLin( $xml );
-
-    # There's an effectively useless 'primary_slot'
-    # in the XML.  For now, we just partially flatten
-    # our data structure.
-
-    foreach my $key (keys %{ $data->{primary_slot} } ) {
-        $data->{$key} = delete $data->{primary_slot}{$key};
-    }
-
-#        print Dump $data;
-
-    return $desired_class->new( $data );
+    return Games::GuitarHero::Stats::Rocker->new( @args );
 
 }
 
