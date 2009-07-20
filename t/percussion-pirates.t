@@ -16,4 +16,4 @@ is($hero->username,        "Teellox",            "Username");
 is($hero->name,            "Percussion Pirates", "Band name");
 #is($hero->platform,        "wii",                "Platform");
 
-diag Dump $hero;
+# diag Dump $hero;

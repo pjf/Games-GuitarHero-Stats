@@ -27,7 +27,7 @@ coerce 'MaybeDateTime' => from 'HashRef' => via {
 };
 
 coerce 'GH::Int' => from 'HashRef' => via {
-    warn "Coercing $_->{content}\n";
+    # warn "Coercing $_->{content}\n";
     return $_->{content};
 };
 

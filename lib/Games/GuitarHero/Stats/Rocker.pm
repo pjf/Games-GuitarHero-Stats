@@ -33,10 +33,14 @@ has_ro name                    => ( isa => 'Str' );
 #    isa => 'ArrayRef[Games::GuitarHero::Stats::HighScore]'
 # );
 
-has_ro recent_performances => (
-    isa => 'PerformanceArray',
-    coerce => 1,
-);
+if (not $ENV{NO_PERFORMANCES} ) {
+
+    has_ro recent_performances => (
+        isa => 'PerformanceArray',
+        coerce => 1,
+    );
+
+}
 
 __PACKAGE__->meta->make_immutable;
 
