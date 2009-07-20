@@ -12,8 +12,5 @@ requires 'DateTime::Format::Strptime';
 requires 'XML::Simple';
 requires 'YAML';
 
-
-auto_install;
-
 WriteAll;
 
