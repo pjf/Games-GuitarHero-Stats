@@ -4,6 +4,7 @@ use 5.006;
 
 use warnings;
 use strict;
+use autodie;
 
 use LWP::UserAgent;
 use XML::Simple;
@@ -49,31 +50,48 @@ if you don't export anything, such as for a purely object-oriented module.
 sub new {
     my ($class, %args) = @_;
 
-    my $id = $args{id} or croak "Mandatory id field missing";
+    my $xml;
 
-    my $ua = LWP::UserAgent->new;
-    $ua->env_proxy;
+    my $desired_class = $args{class} || "Games::GuitarHero::Stats::Rocker";
 
-    my $response = $ua->get("http://assets.community.guitarhero.com/accounts/feed/ghwt/$id.xml");
+    if (my $file = $args{file}) {
+        open(my $fh, '<', $file);
 
-    if ($response->is_success) {
-        my $data = XMLin( $response->decoded_content);
+        $xml = do { local $/; <$fh> };
+    }
+    elsif ( my $id = $args{id} ) {
 
-        # There's an effectively useless 'primary_slot'
-        # in the XML.  For now, we just partially flatten
-        # our data structure.
+        my $ua = LWP::UserAgent->new;
+        $ua->env_proxy;
 
-        foreach my $key (keys %{ $data->{primary_slot} } ) {
-            $data->{$key} = delete $data->{primary_slot}{$key};
+        my $response = $ua->get("http://assets.community.guitarhero.com/accounts/feed/ghwt/$id.xml");
+
+        if ($response->is_success) {
+            $xml = $response->decoded_content;
         }
+        else {
+            croak "Failed to load guitar hero XML - "
+                .  $response->status_line;
+        }
+    }
+    else {
+        croak "Missing either a 'id' or 'file' parameter";
+    }
+
+    my $data = XMLin( $xml );
+
+    # There's an effectively useless 'primary_slot'
+    # in the XML.  For now, we just partially flatten
+    # our data structure.
+
+    foreach my $key (keys %{ $data->{primary_slot} } ) {
+        $data->{$key} = delete $data->{primary_slot}{$key};
+    }
 
 #        print Dump $data;
 
-        return Games::GuitarHero::Stats::Rocker->new( $data );
-    }
-    else {
-        die $response->status_line;
-    }
+    return $desired_class->new( $data );
+
 }
 
 =head1 AUTHOR
