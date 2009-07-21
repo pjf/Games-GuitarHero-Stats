@@ -18,6 +18,17 @@ has_ro notes_missed         => (isa => 'GH::Int', coerce => 1);
 has_ro song                 => (isa => 'Str');
 has_ro created_at           => (isa => 'DateTime', coerce => 1);
 
+sub percentage_hit {
+    my ($this) = @_;
+
+    my $hits   = $this->notes_hit;
+    my $misses = $this->notes_missed;
+
+    my $total = $hits + $misses;
+
+    return sprintf("%.1f", 100 * $hits / ( $hits + $misses ) );
+}
+
 __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
