@@ -10,6 +10,10 @@ use Carp;
 
 our $VERSION = '0.01';
 
+# Helper function, so we don't need 'is => "ro"' everywhere.
+
+sub has_ro { has(shift, is => 'ro', @_) };
+
 sub BUILDARGS {
     my ($class, @args) = @_;
 
@@ -61,68 +65,6 @@ sub BUILDARGS {
 
 }
 
-=head1 AUTHOR
-
-Paul Fenwick, C<< <pjf at cpan.org> >>
-
-=head1 BUGS
-
-Please report any bugs or feature requests to C<bug-games-guitarhero-stats at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Games-GuitarHero-Stats>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
-
-
-
-
-=head1 SUPPORT
-
-You can find documentation for this module with the perldoc command.
-
-    perldoc Games::GuitarHero::Stats
-
-
-You can also look for information at:
-
-=over 4
-
-=item * RT: CPAN's request tracker
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Games-GuitarHero-Stats>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Games-GuitarHero-Stats>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Games-GuitarHero-Stats>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Games-GuitarHero-Stats>
-
-=back
-
-
-=head1 ACKNOWLEDGEMENTS
-
-
-=head1 COPYRIGHT & LICENSE
-
-Copyright 2009 Paul Fenwick, all rights reserved.
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
-
-
-=cut
-
-1; # End of Games::GuitarHero::Stats
-
-# Helper function, so we don't need 'is => "ro"' everywhere.
-
-sub has_ro { has(shift, is => 'ro', @_) };
-
 has_ro last_login              => ( isa => 'MaybeDateTime', coerce => 1 );
 has_ro unread_message_count    => ( isa => 'GH::Int', coerce => 1);
 has_ro last_blog_post_at       => ( isa => 'MaybeDateTime', coerce => 1 );
@@ -137,26 +79,18 @@ has_ro description             => ( isa => 'Str' );
 has_ro last_created_clan       => ( isa => 'MaybeDateTime', coerce => 1 );
 has_ro skin                    => ( isa => 'Str' );
 
-# TODO: recent performances, etc
-
-# There's a last_login inside <primary>. Why?
-
 has_ro name                    => ( isa => 'Str' );
 
-# Add wins, etc.
+# Add highscores, etc.
 
 # has highscores => (
 #    isa => 'ArrayRef[Games::GuitarHero::Stats::HighScore]'
 # );
 
-if (not $ENV{NO_PERFORMANCES} ) {
-
-    has_ro recent_performances => (
-        isa => 'PerformanceArray',
-        coerce => 1,
-    );
-
-}
+has_ro recent_performances => (
+    isa => 'PerformanceArray',
+    coerce => 1,
+);
 
 __PACKAGE__->meta->make_immutable;
 

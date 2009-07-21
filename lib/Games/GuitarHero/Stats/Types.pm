@@ -38,8 +38,6 @@ coerce 'PerformanceArray' => from 'HashRef' => via {
 
     my $raw = $_;
 
-    Class::MOP::load_class('Games::GuitarHero::Stats::Performance');
-
     my @performances;
 
     my $i = 1;
